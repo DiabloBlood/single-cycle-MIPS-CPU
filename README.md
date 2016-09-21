@@ -1,6 +1,6 @@
 # Single-cycle-MIPS-processor
 Course project of Computer Architecture, designed by single-cycle datapath. The verilog code could be completely compiled by Quartus II.
- <img src="(https://github.com/DiabloBlood/Single-cycle-MIPS-processor/blob/master/DataPath.png" width = "300" height = "200" alt="DataPath" align=center />
+ <img src="(https://github.com/DiabloBlood/Single-cycle-MIPS-processor/blob/master/DataPath.png" width = "300" height = "200" align=center />
 
 ##1. Instruction Implementation
 ### Load Word (LW) and Store Word (SW) Instruction
