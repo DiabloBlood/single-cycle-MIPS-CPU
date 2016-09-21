@@ -8,9 +8,9 @@ Course project of Computer Architecture, designed by single-cycle datapath. The 
 ### LW and Beq
 ![image](https://github.com/DiabloBlood/Single-cycle-MIPS-processor/blob/master/LW%20and%20beq.png)
 ### Jump and add
-![image](https://github.com/DiabloBlood/Single-cycle-MIPS-processor/blob/master/LW%20and%20SW.png)
+![image](https://github.com/DiabloBlood/Single-cycle-MIPS-processor/blob/master/Jump%20and%20add.png)
 ### Set Less Than
-![image](https://github.com/DiabloBlood/Single-cycle-MIPS-processor/blob/master/LW%20and%20SW.png)
+![image](https://github.com/DiabloBlood/Single-cycle-MIPS-processor/blob/master/Set%20Less%20Than.png)
 
 ##2.	Instruction Analysis
 	00221820		add: R3, R1, R2
