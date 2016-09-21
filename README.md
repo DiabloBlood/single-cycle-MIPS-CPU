@@ -6,8 +6,10 @@ Course project of Computer Architecture, designed by single-cycle datapath. The 
 ### Load Word (LW) and Store Word (SW) Instruction
 ![image](https://github.com/DiabloBlood/Single-cycle-MIPS-processor/blob/master/LW%20and%20SW.png)
 ### LW and Beq
+![image](https://github.com/DiabloBlood/Single-cycle-MIPS-processor/blob/master/LW%20and%20beq.png)
+### Jump and add
 ![image](https://github.com/DiabloBlood/Single-cycle-MIPS-processor/blob/master/LW%20and%20SW.png)
-![image](https://github.com/DiabloBlood/Single-cycle-MIPS-processor/blob/master/LW%20and%20SW.png)
+### Set Less Than
 ![image](https://github.com/DiabloBlood/Single-cycle-MIPS-processor/blob/master/LW%20and%20SW.png)
 
 ##2.	Instruction Analysis
