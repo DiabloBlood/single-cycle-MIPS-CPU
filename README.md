@@ -31,6 +31,7 @@ Course project of Computer Architecture, designed by single-cycle datapath. The 
     ReadData	-	-	7	-	-
     WriteReg	R3	R1	R4	R1	R3
 
-	Note the 3rd clock cycle is LW instruction, so the ReadData from DataMemory was 7, ALUout = 8 means the word 	address was Mem[2]. And all of the other computing results were right. The waveform is as follow:
+Note the 3rd clock cycle is LW instruction, so the ReadData from DataMemory was 7, ALUout = 8 means the word address was Mem[2]. 
+And all of the other computing results were right. The waveform is as follow:
 	
 
