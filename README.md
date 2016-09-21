@@ -7,7 +7,7 @@ Course project of Computer Architecture, designed by single-cycle datapath. The 
 	8C240000		lw R4, 0(R1)
 	10210001		beq R1, R1, +8 		//Branch taken
 	00001820		add R3, R0, R0		//This instruction will be skipped because of branch taken
-	00411822			sub R3, R2, R1
+	00411822		sub R3, R2, R1
 
 	All the instruction was assigned at the “Instruction.tex”
 
