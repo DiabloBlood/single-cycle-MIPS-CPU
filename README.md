@@ -35,6 +35,6 @@ _ _ _
 Note the 3rd clock cycle is LW instruction, so the ReadData from DataMemory was 7, ALUout = 8 means the word address was Mem[2]. 
 And all of the other computing results were right. The waveform is as follow:
 
-![image](https://github.com/ButBueatiful/dotvim/raw/master/screenshots/vim-screenshot.jpg)
+![image](https://github.com/DiabloBlood/Single-cycle-MIPS-processor/blob/master/CPU_waveform.PNG)
 	
 
