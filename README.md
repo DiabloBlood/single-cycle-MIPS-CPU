@@ -1,5 +1,6 @@
 # Single-cycle-MIPS-processor
 Course project of Computer Architecture, designed by single-cycle datapath. The verilog code could be completely compiled by Quartus II.
+![image](https://github.com/DiabloBlood/Single-cycle-MIPS-processor/blob/master/DataPath.png)
 
 ##1.	Instruction Analysis
 	00221820		add: R3, R1, R2
