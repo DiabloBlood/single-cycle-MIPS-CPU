@@ -22,6 +22,7 @@ Course project of Computer Architecture, designed by single-cycle datapath. The 
 			Mem[2] = 7;
 	So we could conclude all the signals as follow:
 
+_ _ _
     clock	1	2	3	4	5
     PCout	4	8	12	16	24
     inst	00221820	AC010000	8C240000	10210001	00411822	
