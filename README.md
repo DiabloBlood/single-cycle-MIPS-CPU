@@ -1,7 +1,7 @@
 # Single-cycle-MIPS-processor
 Course project of Computer Architecture, designed by single-cycle datapath. The verilog code could be completely compiled by Quartus II.
 
-1.	Instruction Analysis
+##1.	Instruction Analysis
 	00221820		add: R3, R1, R2
 	AC010000		sw: R1, 0(R0)
 	8C240000		lw R4, 0(R1)
@@ -11,7 +11,7 @@ Course project of Computer Architecture, designed by single-cycle datapath. The 
 
 	All the instruction was assigned at the “Instruction.tex”
 
-2.	Simulation
+##2.	Simulation
 	The register file was be initially by assigned
 			R0 = 0;
 			R1 = 8;
