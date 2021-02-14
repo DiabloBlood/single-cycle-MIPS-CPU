@@ -6,7 +6,7 @@ Designed a single clock cycle MIPS processor by verilog
 Course project of Computer Architecture, designed by single-cycle datapath. The verilog code could be completely compiled by Quartus II.  
 ![image](https://github.com/DiabloBlood/Single-cycle-MIPS-processor/blob/master/DataPath.png)
 
-##1. Instruction Implementation
+## 1. Instruction Implementation
 ### Load Word (LW) and Store Word (SW) Instruction
 ![image](https://github.com/DiabloBlood/Single-cycle-MIPS-processor/blob/master/LW%20and%20SW.png)
 ### LW and Beq
@@ -16,7 +16,7 @@ Course project of Computer Architecture, designed by single-cycle datapath. The 
 ### Set Less Than
 ![image](https://github.com/DiabloBlood/Single-cycle-MIPS-processor/blob/master/Set%20Less%20Than.png)
 
-##2.	Instruction Analysis
+## 2.	Instruction Analysis
 	00221820		add: R3, R1, R2
 	AC010000		sw: R1, 0(R0)
 	8C240000		lw R4, 0(R1)
@@ -26,7 +26,7 @@ Course project of Computer Architecture, designed by single-cycle datapath. The 
 
 	All the instruction was assigned at the “Instruction.tex”
 
-##3.	Simulation
+## 3.	Simulation
 	The register file was be initially by assigned
 			R0 = 0;
 			R1 = 8;
