@@ -7,13 +7,13 @@ Course project of Computer Architecture, designed by single-cycle datapath. The 
 ![image](https://github.com/DiabloBlood/single-cycle-MIPS-CPU/blob/master/assets/data-path.png)
 
 ## 1. Instruction Implementation
-### Load Word (LW) and Store Word (SW) Instruction
+#### 1.1 Load Word (LW) and Store Word (SW) Instruction
 ![image](https://github.com/DiabloBlood/single-cycle-MIPS-CPU/blob/master/assets/lw-sw.png)
-### LW and Beq
+#### 1.2 LW and Beq
 ![image](https://github.com/DiabloBlood/single-cycle-MIPS-CPU/blob/master/assets/lw-beq.png)
-### Jump and add
+#### 1.3 Jump and add
 ![image](https://github.com/DiabloBlood/single-cycle-MIPS-CPU/blob/master/assets/jump-add.png)
-### Set Less Than
+#### 1.4 Set Less Than
 ![image](https://github.com/DiabloBlood/single-cycle-MIPS-CPU/blob/master/assets/set-less-than.png)
 
 ## 2.	Instruction Analysis
