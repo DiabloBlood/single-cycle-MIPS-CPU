@@ -1,20 +1,20 @@
-# Single-cycle-MIPS-processor
+# Single Cycle MIPS CPU
 Designed a single clock cycle MIPS processor by verilog    
---Implemented basic instructions of lw, sw, beq, bne, add, sub, set less than, jump, etc.    
---Built basic parts of PC, instruction memory, data memory, ALU, registers file and controller.    
+-- Implemented basic instructions of lw, sw, beq, bne, add, sub, set less than, jump, etc.    
+-- Built basic parts of PC, instruction memory, data memory, ALU, registers file and controller.    
   
 Course project of Computer Architecture, designed by single-cycle datapath. The verilog code could be completely compiled by Quartus II.  
-![image](https://github.com/DiabloBlood/Single-cycle-MIPS-processor/blob/master/DataPath.png)
+![image](https://github.com/DiabloBlood/single-cycle-MIPS-CPU/master/data-path.png)
 
 ## 1. Instruction Implementation
 ### Load Word (LW) and Store Word (SW) Instruction
-![image](https://github.com/DiabloBlood/Single-cycle-MIPS-processor/blob/master/LW%20and%20SW.png)
+![image](https://github.com/DiabloBlood/single-cycle-MIPS-CPU/blob/master/assets/lw-sw.png)
 ### LW and Beq
-![image](https://github.com/DiabloBlood/Single-cycle-MIPS-processor/blob/master/LW%20and%20beq.png)
+![image](https://github.com/DiabloBlood/single-cycle-MIPS-CPU/blob/master/assets/lw-beq.png)
 ### Jump and add
-![image](https://github.com/DiabloBlood/Single-cycle-MIPS-processor/blob/master/Jump%20and%20add.png)
+![image](https://github.com/DiabloBlood/single-cycle-MIPS-CPU/blob/master/assets/jump-add.png)
 ### Set Less Than
-![image](https://github.com/DiabloBlood/Single-cycle-MIPS-processor/blob/master/Set%20Less%20Than.png)
+![image](https://github.com/DiabloBlood/single-cycle-MIPS-CPU/blob/master/assets/set-less-than.png)
 
 ## 2.	Instruction Analysis
 	00221820		add: R3, R1, R2
@@ -47,10 +47,8 @@ _ _ _
     ReadData	-	-	7	-	-
     WriteReg	R3	R1	R4	R1	R3
 * * *
-###
-Note the 3rd clock cycle is LW instruction, so the ReadData from DataMemory was 7, ALUout = 8 means the word address was Mem[2]. 
+
+Please note that the 3rd clock cycle is LW instruction, so the ReadData from DataMemory was 7, ALUout = 8 means the word address was Mem[2]. 
 And all of the other computing results were right. The waveform is as follow:
 
-![image](https://github.com/DiabloBlood/Single-cycle-MIPS-processor/blob/master/CPU_waveform.PNG)
-	
-
+![image](https://github.com/DiabloBlood/single-cycle-MIPS-CPU/blob/master/assets/cpu-waveform.png)
