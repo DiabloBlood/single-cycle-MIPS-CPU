@@ -4,7 +4,7 @@ Designed a single clock cycle MIPS processor by verilog
 -- Built basic parts of PC, instruction memory, data memory, ALU, registers file and controller.    
   
 Course project of Computer Architecture, designed by single-cycle datapath. The verilog code could be completely compiled by Quartus II.  
-![image](https://github.com/DiabloBlood/single-cycle-MIPS-CPU/master/data-path.png)
+![image](https://github.com/DiabloBlood/single-cycle-MIPS-CPU/blob/master/assets/data-path.png)
 
 ## 1. Instruction Implementation
 ### Load Word (LW) and Store Word (SW) Instruction
